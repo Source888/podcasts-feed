@@ -2,7 +2,7 @@ name: Gen podcast feed
 on: [push]
 jobs: 
   build:
-    runs-om: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Chekout repo
         uses: actions/checkout@v3
